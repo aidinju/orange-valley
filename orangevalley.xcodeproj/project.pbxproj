@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154380EB1D268C43E64A70B6 /* Pods_orangevalleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B532EBF0284F0A1C88459DF3 /* Pods_orangevalleyTests.framework */; };
+		4427482F8CEED30C956CDBFF /* Pods_orangevalley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62A2C1D40A7B1AF2560C1B /* Pods_orangevalley.framework */; };
+		63635A7F50C3E264785F662F /* Pods_orangevalleyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8FF6A7DE30F8046E5FA10 /* Pods_orangevalleyUITests.framework */; };
 		D92590352028B8B200E271D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92590342028B8B200E271D4 /* AppDelegate.swift */; };
 		D92590372028B8B200E271D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92590362028B8B200E271D4 /* ViewController.swift */; };
 		D925903A2028B8B200E271D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92590382028B8B200E271D4 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		D925903F2028B8B200E271D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D925903D2028B8B200E271D4 /* LaunchScreen.storyboard */; };
 		D925904A2028B8B200E271D4 /* orangevalleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92590492028B8B200E271D4 /* orangevalleyTests.swift */; };
 		D92590552028B8B200E271D4 /* orangevalleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92590542028B8B200E271D4 /* orangevalleyUITests.swift */; };
+		D96B2A372028C076004E60D3 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B2A362028C076004E60D3 /* logInViewController.swift */; };
+		D96B2A392028E396004E60D3 /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B2A382028E396004E60D3 /* structs.swift */; };
+		D9F79D592029C21A00EB6FAE /* videoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F79D582029C21A00EB6FAE /* videoViewController.swift */; };
+		D9F79D5B2029C62B00EB6FAE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F79D5A2029C62B00EB6FAE /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0524A8AD55B52077EB2E5320 /* Pods-orangevalley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalley.release.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalley/Pods-orangevalley.release.xcconfig"; sourceTree = "<group>"; };
+		07F8FF6A7DE30F8046E5FA10 /* Pods_orangevalleyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orangevalleyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAD8F2983CE9BBBDECB35A0 /* Pods-orangevalleyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalleyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalleyTests/Pods-orangevalleyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35DF8763B328E1E6D22BF415 /* Pods-orangevalleyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalleyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalleyUITests/Pods-orangevalleyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6558313F187070A86BE23218 /* Pods-orangevalleyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalleyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalleyTests/Pods-orangevalleyTests.release.xcconfig"; sourceTree = "<group>"; };
+		68F388095F4137D914A85D9E /* Pods-orangevalleyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalleyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalleyUITests/Pods-orangevalleyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A62A2C1D40A7B1AF2560C1B /* Pods_orangevalley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orangevalley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D05F4F9E6A5C3DAC9BD5CA /* Pods-orangevalley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangevalley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-orangevalley/Pods-orangevalley.debug.xcconfig"; sourceTree = "<group>"; };
+		B532EBF0284F0A1C88459DF3 /* Pods_orangevalleyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orangevalleyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92590312028B8B200E271D4 /* orangevalley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orangevalley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92590342028B8B200E271D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D92590362028B8B200E271D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,10 @@
 		D92590502028B8B200E271D4 /* orangevalleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orangevalleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92590542028B8B200E271D4 /* orangevalleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orangevalleyUITests.swift; sourceTree = "<group>"; };
 		D92590562028B8B200E271D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96B2A362028C076004E60D3 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		D96B2A382028E396004E60D3 /* structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
+		D9F79D582029C21A00EB6FAE /* videoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewController.swift; sourceTree = "<group>"; };
+		D9F79D5A2029C62B00EB6FAE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4427482F8CEED30C956CDBFF /* Pods_orangevalley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154380EB1D268C43E64A70B6 /* Pods_orangevalleyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63635A7F50C3E264785F662F /* Pods_orangevalleyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E88C05BD611B08BE32BACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A62A2C1D40A7B1AF2560C1B /* Pods_orangevalley.framework */,
+				B532EBF0284F0A1C88459DF3 /* Pods_orangevalleyTests.framework */,
+				07F8FF6A7DE30F8046E5FA10 /* Pods_orangevalleyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D92590282028B8B200E271D4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				D92590482028B8B200E271D4 /* orangevalleyTests */,
 				D92590532028B8B200E271D4 /* orangevalleyUITests */,
 				D92590322028B8B200E271D4 /* Products */,
+				FD1736D0E782B0FB48077BB6 /* Pods */,
+				30E88C05BD611B08BE32BACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +133,11 @@
 			isa = PBXGroup;
 			children = (
 				D92590342028B8B200E271D4 /* AppDelegate.swift */,
+				D96B2A382028E396004E60D3 /* structs.swift */,
 				D92590362028B8B200E271D4 /* ViewController.swift */,
+				D96B2A362028C076004E60D3 /* logInViewController.swift */,
+				D9F79D582029C21A00EB6FAE /* videoViewController.swift */,
+				D9F79D5A2029C62B00EB6FAE /* CollectionViewCell.swift */,
 				D92590382028B8B200E271D4 /* Main.storyboard */,
 				D925903B2028B8B200E271D4 /* Assets.xcassets */,
 				D925903D2028B8B200E271D4 /* LaunchScreen.storyboard */,
@@ -125,6 +164,19 @@
 			path = orangevalleyUITests;
 			sourceTree = "<group>";
 		};
+		FD1736D0E782B0FB48077BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D05F4F9E6A5C3DAC9BD5CA /* Pods-orangevalley.debug.xcconfig */,
+				0524A8AD55B52077EB2E5320 /* Pods-orangevalley.release.xcconfig */,
+				2CAD8F2983CE9BBBDECB35A0 /* Pods-orangevalleyTests.debug.xcconfig */,
+				6558313F187070A86BE23218 /* Pods-orangevalleyTests.release.xcconfig */,
+				68F388095F4137D914A85D9E /* Pods-orangevalleyUITests.debug.xcconfig */,
+				35DF8763B328E1E6D22BF415 /* Pods-orangevalleyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D92590592028B8B200E271D4 /* Build configuration list for PBXNativeTarget "orangevalley" */;
 			buildPhases = (
+				89C9B51CFDF7AD3A167CC8E7 /* [CP] Check Pods Manifest.lock */,
 				D925902D2028B8B200E271D4 /* Sources */,
 				D925902E2028B8B200E271D4 /* Frameworks */,
 				D925902F2028B8B200E271D4 /* Resources */,
+				5AACFE5B4E1331671E436889 /* [CP] Embed Pods Frameworks */,
+				775408C9EFF88F2171672D9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D925905C2028B8B200E271D4 /* Build configuration list for PBXNativeTarget "orangevalleyTests" */;
 			buildPhases = (
+				3299D9FD1010D6776FB589DD /* [CP] Check Pods Manifest.lock */,
 				D92590412028B8B200E271D4 /* Sources */,
 				D92590422028B8B200E271D4 /* Frameworks */,
 				D92590432028B8B200E271D4 /* Resources */,
+				E6AEFA40D4029436415FD3FB /* [CP] Embed Pods Frameworks */,
+				4A4DCC7D7A21C6288B1B4B0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D925905F2028B8B200E271D4 /* Build configuration list for PBXNativeTarget "orangevalleyUITests" */;
 			buildPhases = (
+				E9D5E9872F427D522BC7F252 /* [CP] Check Pods Manifest.lock */,
 				D925904C2028B8B200E271D4 /* Sources */,
 				D925904D2028B8B200E271D4 /* Frameworks */,
 				D925904E2028B8B200E271D4 /* Resources */,
+				14D97954376FEC90750D5B14 /* [CP] Embed Pods Frameworks */,
+				8AFF5BD8A79C32EB75EFE4BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +315,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14D97954376FEC90750D5B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalleyUITests/Pods-orangevalleyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3299D9FD1010D6776FB589DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orangevalleyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4DCC7D7A21C6288B1B4B0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalleyTests/Pods-orangevalleyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AACFE5B4E1331671E436889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-orangevalley/Pods-orangevalley-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalley/Pods-orangevalley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775408C9EFF88F2171672D9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalley/Pods-orangevalley-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C9B51CFDF7AD3A167CC8E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orangevalley-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFF5BD8A79C32EB75EFE4BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalleyUITests/Pods-orangevalleyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AEFA40D4029436415FD3FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangevalleyTests/Pods-orangevalleyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D5E9872F427D522BC7F252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orangevalleyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D925902D2028B8B200E271D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96B2A392028E396004E60D3 /* structs.swift in Sources */,
 				D92590372028B8B200E271D4 /* ViewController.swift in Sources */,
+				D9F79D5B2029C62B00EB6FAE /* CollectionViewCell.swift in Sources */,
+				D96B2A372028C076004E60D3 /* logInViewController.swift in Sources */,
 				D92590352028B8B200E271D4 /* AppDelegate.swift in Sources */,
+				D9F79D592029C21A00EB6FAE /* videoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +639,11 @@
 		};
 		D925905A2028B8B200E271D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D05F4F9E6A5C3DAC9BD5CA /* Pods-orangevalley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5VWP4FYV;
 				INFOPLIST_FILE = orangevalley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidina.orangevalley.orangevalley;
@@ -438,9 +655,11 @@
 		};
 		D925905B2028B8B200E271D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0524A8AD55B52077EB2E5320 /* Pods-orangevalley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5VWP4FYV;
 				INFOPLIST_FILE = orangevalley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidina.orangevalley.orangevalley;
@@ -452,6 +671,7 @@
 		};
 		D925905D2028B8B200E271D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAD8F2983CE9BBBDECB35A0 /* Pods-orangevalleyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +688,7 @@
 		};
 		D925905E2028B8B200E271D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6558313F187070A86BE23218 /* Pods-orangevalleyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +705,7 @@
 		};
 		D92590602028B8B200E271D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F388095F4137D914A85D9E /* Pods-orangevalleyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +721,7 @@
 		};
 		D92590612028B8B200E271D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DF8763B328E1E6D22BF415 /* Pods-orangevalleyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

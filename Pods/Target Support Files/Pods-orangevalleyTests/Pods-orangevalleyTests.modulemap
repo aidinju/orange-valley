@@ -1,0 +1,6 @@
+framework module Pods_orangevalleyTests {
+  umbrella header "Pods-orangevalleyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
